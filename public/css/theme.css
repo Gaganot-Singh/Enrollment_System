@@ -1,0 +1,177 @@
+body {
+    background-color: #2a2a2a;
+}
+
+nav {
+    text-align: center;
+    
+}
+nav a {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #e1e1e1;
+}
+#navbarSupportedContent{
+    padding: 12px;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: -39px 19px 56px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+
+.main {
+    background-color: #f3f3f3;
+    padding: 12px;
+    box-shadow: -39px 19px 56px -4px rgba(0, 0, 0, 0.75);
+    margin-top: 20px;
+    border-radius: 5px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+div{
+    background-color: #f3f3f3;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-color: #000000;
+    font-size: large;
+  }
+
+  
+  th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+  }
+  
+  
+  td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  
+ 
+h1, p{  
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #000000;
+    color: #d8d7d7;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #b9af9b;
+}
+
+li{
+    font-size: large;
+}
+
+hr {
+    border-color: #ccc;
+    border-width: 3px;
+}
+
+  .btn {
+    background-color: #2d3237;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #aba090;
+  }
+  
+  .btn:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding: 0 10px;
+  }
+
+form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: -39px 19px 56px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.login{
+  text-align: center;
+}
+
+.loginError{
+  text-align: center;
+}
+
+.logo{
+  text-align: center;
+}

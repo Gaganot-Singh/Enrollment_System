@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/theme.css">
+  </head>
+  <body>
+    <div class="main">
+      {{#if errorMsg}}
+        <h5 class="loginError">{{errorMsg}}</h5>
+      {{else}}
+        <h1> LOGIN </h1>
+      {{/if}}
+      <br>
+      <form method="post" action="/login" class="login"><label>Username: </label>&nbsp;<input name="username" type="text"><label> &nbsp;  Password:&nbsp; </label><input name="password" type="password"> &nbsp; <button type="submit">Login</button></form>
+      <p><B> USE "sampleuser" and "samplepassword" TO LOGIN </B></p>
+    </div>
+  </body>
+</html>
